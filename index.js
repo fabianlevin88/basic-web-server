@@ -11,8 +11,14 @@ app.get('/', function(req, res) {
     })    
 })
 
-app.get('/practica', function(req, res) {
-    res.sendFile('practica.html', {
+app.get('/articulo', function(req, res) {
+    res.sendFile('articulo.html', {
+        root: path.join(__dirname, './')
+    })  
+})
+
+app.get('/bootstrap', function(req, res){
+    res.sendFile('bootstrap.html', {
         root: path.join(__dirname, './')
     })  
 })

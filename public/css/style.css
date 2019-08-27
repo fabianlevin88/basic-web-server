@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: url(../imagenes/textura.jpg)!important;
     font-family: 'Roboto', sans-serif;
@@ -5,12 +10,10 @@ body {
     background-repeat: initial;
 }
 
-footer {
-    text-align: center;
-    font-size: 40px;
-    color: red;
-    display: block;
-    background: #3B3937;
+header, .main, footer {    
+    width: 90%;    
+    padding: 5px auto;
+    margin: 5px auto;    
 }
 
 h1 {
@@ -18,9 +21,8 @@ h1 {
     font-size: 100px;
     color: white;    
     display: block;
-    background-image: url(../imagenes/texturatitulo.jpg);    
-    margin: 5px 5px;
-    padding: 40px;
+    background-image: url(../imagenes/texturatitulo.jpg);        
+    padding: 30px;
 }
 
 .subtitulo {
@@ -29,53 +31,177 @@ h1 {
     text-decoration: underline;
 }
 
-.textobase {
-    border: 1px white solid;
-    margin: 5px 5px;
-    padding: 15px;
+header nav {
+    font-size: 20px;
+    background: #3B3937;    
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;   
+}
+header nav ul li a {
+    text-decoration: none;
+    padding: 20px 105px;    
+}
+
+header nav ul li a:link {
+    color: white;
+
+}
+
+header nav ul li a:hover {
+    color: black;
+    background: white;
+    text-decoration: underline;
+}
+
+header nav ul li a:visited {
+    color: grey;
+    text-decoration: underline;
+}
+
+.main .articulos {
+    width: 64.5%;
+    float: left;    
+    margin-right: 1.5%;        
+}
+
+.main .articulos article {
+    padding: 20px;
     background: #3B3937;
+    margin-bottom: 20px;
 }
 
-#kilo {
-    font-size: 25px;    
-    color: green;
+aside {        
+    width: 31%;
+    background: orange;    
+    padding: 20px;    
+    float: left;
 }
 
-#explicacion {
-    font-size: 25px;    
-    color: green;    
+footer {    
+    text-align: center;
+    clear: both;
+    padding: 20px 0px;
+    font-size: 40px;
+    color: red;
 }
 
-a:link.referencia {
-    color: lightcoral;
-    font-size: 30px;
+.subtitulo {
+    color: greenyellow;
+    text-decoration: none;
+    padding: 0px 10px 20px 0px;    
+}
+
+.textobase {
+    padding: 0px 10px 20px 0px;
+}
+
+a.mantis:link {
+    color: yellow;
     text-decoration: none;
 }
 
-a:hover.referencia {
-    color: blue;
+a.mantis:hover {
+    color: #B4B873;
     text-decoration: underline;
 }
 
-a:active.referencia {
+a.mantis:active {
     color: red;
     text-decoration: underline;
 }
 
-a:link.mantis {
-    text-decoration: none;
-    color: yellowgreen;
+a.mantis:visited {
+    color: aqua;
 }
 
-a:hover.mantis {
-    color: blue;
+a.referencia:link {
+    font-size: 40px;
+    color: yellow;
+    text-decoration: none;
+}
+
+a.referencia:hover {
+    color: #B4B873;
     text-decoration: underline;
 }
 
-a:active.mantis {
+a.referencia:active {
     color: red;
+    text-decoration: underline;
+}
+
+a.referencia:visited {
+    color: aqua;
 }
 
 li {
-    padding: 20px 0px 0px;
+    padding: 10px 0px;
+}
+
+ol {
+    padding: 0px 10px;
+}
+
+.sabias {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    display: block;
+    margin: 20px 10px;
+}
+
+.kilo {
+    color: green;
+    text-align: center;
+    display: block;    
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+.explicacion {
+    color: green;
+    text-align: center;
+    display: block;    
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+.fotos {
+    font-size: 25px;
+    margin: 0px 10px;
+    text-decoration: underline;
+}
+
+.sidebar {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    color: black;
+    font-size: 40px;    
+}
+
+.linksidebar {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px;    
+}
+
+h4 {
+    color: black;
+    font-size: 30px;
+    display: block;
+    text-align: center;
 }

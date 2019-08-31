@@ -59,40 +59,56 @@
     width: 90%;
 }
 
-.main-info .container .img-col .text-container h4{
+.main-info .container .txt-col .text-container h4{
     font-size: 16px;
 }
 
-.main-info .container .img-col .text-container p{
+.main-info .container .txt-col .text-container p{
     font-size: 16px;
     color: var(--brown-leather);
     margin-bottom: 20px;
 }
 
-.main-info .container .img-col .text-container ul.basic-info{
+.main-info .container .txt-col .text-container ul.basic-info{
     padding-left: 0;
 }
 
-.main-info .container .img-col .text-container ul.basic-info >li{
+.main-info .container .txt-col .text-container ul.basic-info >li{
     margin-bottom: 8px;    
 }
 
-.main-info .container .img-col .text-container ul.basic-info >li >i{
+.main-info .container .txt-col .text-container ul.basic-info >li >i{
     margin-right: 4px;
     color: var(--blue-navy);
 }
 
-.main-info .container .img-col .text-container ul.social.nw{
+.main-info .container .txt-col .text-container ul.social.nw{
     margin-top: 20px;
     padding-left: 0;
 }
 
-.main-info .container .img-col .text-container ul.social.nw >li{
+.main-info .container .txt-col .text-container ul.social.nw >li{
     margin-right: 20px;
 }
 
-.main-info .container .img-col .text-container ul.social.nw >li >i{
+.main-info .container .txt-col .text-container ul.social.nw >li >i{
     font-size: 40px;
     color: var(--blue-navy);
 }
 
+/* --- SKILL SECTION --- */
+
+.skill-item{
+    margin-bottom: 24px;
+}
+
+.skill-item .text{
+    margin-bottom: 8px;
+}
+
+.skill-item .progress .progress-bar{
+    height: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    align-self: center;    
+}

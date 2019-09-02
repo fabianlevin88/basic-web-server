@@ -116,8 +116,10 @@
 /* --- PORTFOLIO --- */
 
 .card-container .card{
-    max-width: 360px;    
-    margin-top: 16px;
+    max-width: 360px;        
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;    
 }
 
 .card-container .card i{

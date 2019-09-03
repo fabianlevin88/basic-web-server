@@ -5,7 +5,7 @@
     .header-area .main-menu .navbar .nav-link{
         padding: .5rem 1rem;
     }
-    .container .card{
+    .card-container .card{
         max-width: 240px;
     }
 } 
@@ -18,21 +18,21 @@
     .main-info .container{
         bottom: -120px;
     }
-    .container .card{
+    .card-container .card{
         max-width: 360px;
     }
 }
 
 /*Large devices desktops, 992px and up*/
 @media (min-width: 992px){
-    .container .card{
-        max-width: 360px;
+    .card-container .card{
+        max-width: 240px;
     }
 }
 
 /*Extra large devices large desktops, 1200px and up*/
 @media (min-width: 1200px){
-    .container .card{
-        max-width: 240px;
+    .card-container .card{
+        max-width: 360px;
     }
 }

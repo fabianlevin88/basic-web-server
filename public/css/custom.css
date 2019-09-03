@@ -116,8 +116,8 @@
 /* --- PORTFOLIO --- */
 
 .card-container .card{
-    max-width: 360px;    
-    margin-top: 16px;
+    max-width: 360px;        
+    margin-top: 16px;    
 }
 
 .card-container .card i{
@@ -125,7 +125,7 @@
     color: var(--blue-navy);
 }
 
-.card-container .card h3{
+.card-container .card h5{
     margin-top: 12px;
     margin-bottom: 8px;
     opacity: 0.8;
